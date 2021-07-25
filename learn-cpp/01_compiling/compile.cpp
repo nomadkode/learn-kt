@@ -1,6 +1,9 @@
+#include <iostream>
+
+int tambah (int a, int b);
+
 int main()
 {
-  #include "kurung.h"
+  std::cout << tambah(2,3) << std::endl;
   return 0;
-
 }
