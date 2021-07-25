@@ -1,9 +1,9 @@
 #include <iostream>
 
 // comment
-
 int main()
 {
-  std::cout << "hello kawan" << std::endl;
+  std::cout << "hello ramset" << std::endl;
+  std::cin.get();
   return 0;
 }
