@@ -1,12 +1,21 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-  // tipe data integer
+  // cara hardcode
   int a; // deklarasi
   a = 5; // inisialisasi
+  cout << a << endl;
 
-  std::cout << a << std::endl;
-  std::cin.get();
+  // cara input nilai dr console
+  int b;
+  cout << "masukan nilai: ";
+  cin >> b;
+  cout << "nilai yang anda masukan: ";
+  cout << b << endl;
+
+  cin.get();
   return 0;
 }
